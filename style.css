@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Cookie|Damion|Parisienne');
+@import url('https://fonts.googleapis.com/css?family=Incosolata|Pathway+Gothic+One|Nanum+Gothic+Coding|Anonymou|Bebas+Neue|Lora+Bold|Source+Sans+Pro');
+
+
+h1{
+  font-family: 'Aliens and cows';
+  font-size: 80px
+  letter-spacing : 0.1px;
+  	}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color : #093928;
+  text-align: center;
+  font-weight: bolder;
+
+	}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  color : #261f20;
+  background-color : #FEFEFE;
+
+   }
+
+ a {
+  text-decoration: none;
+	}
+
+h2, a{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-family : 'Source Sans Pro', sans-serif;
+
+}
+
+
+
+.btn-color {
+  background-color: #6b9dab70;
+  padding : 15px 20px;
+  border-radius: 3px;
+  color: white;
+  font-weight: lighter; 
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px
+  font-weight :100px;
+  transition: background-color 1s;
+  }
+
+
+.btn-color:hover {
+  background-color: #e1add670;
+  }
+
+#btn-center {
+  margin-left: 80px;
+}
+
+
+@media (max-width: 960px) {
+ 
+ .container {
+    width: 700px;
+  }
+  }
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  }
+
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  }
+
+
+.container {
+  background-color : #FEFEFE;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin : 70px 300px;
+  background-color : #FEFEFE;
+
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  padding: 0px 50px 0px 15px;
+  background-color: white;
+  border-radius: 4px;
+  height : 160px;
+  margin : 10px 15px;
+  flex-grow: 1;
+  align-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.card img {
+  width: 150px;
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.pictures {
+  height: 120px;
+  width: 290px;
+  border-radius: 3px;
+}
+
+#box2 {
+  background-color: #fadbec;
+}
+
+#box1 {
+  background-color: #ebfce2;
+}
+
+#box3 {
+  background-color: #fcfcd9;
+}
+
+  #title2 {
+    width: 75%;
+    font-size : 39px;
+    padding-left: 25%;
+    background-color: #6b9dab85;
+  }
+
+.banner {
+  background-image: linear-gradient(90deg, rgba(0,0,0, 0.65) 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0.05) 60%), url("images/garden-create.jpg"); 
+  background-size: cover;
+  filter: blur(0.1px);
+  height: 620px;
+  padding-top: 10px;
+  }
+
+
+.banner h1{
+  font-size: 85px;
+  font-weight: lighter;
+  text-shadow: 0px 1.5px 10px rgba(0, 0, 0, 0.25);
+  padding-top : 80px;
+  animation: bigtitleletter cubic-bezier(0.38, 0.76, 0.53, 0.84) 2.5s
+  letter-spacing: 1px;
+  color : white;
+  }
+
+
+.banner h2{
+  letter-spacing: 1.4px;
+  font-size: 19px;
+  text-shadow: 0px 1.5px 8px rgba(0, 0, 0, 0.6);
+  margin-bottom : 65px ;
+  margin-top : 20px;
+  margin-right : 40%;
+  color : white;
+  }
+
+
+#h2banner {
+  text-align: none;
+} 
+
+
+.banner a{
+  font-weight: lighter
+  }
+
+
+.banner h1, h2, a{
+  margin: 0px 50px 10px 90px ;
+}
+
+
+@keyframes bigtitleletter {
+  0% {
+  letter-spacing: -9px;
+  text-shadow: 0px 1.5px 10px rgba(0, 0, 0, 0);
+  }
+  100% {
+  letter-spacing: 1px;
+  text-shadow: 0px 1.5px 10px rgba(0, 0, 0, 0.25);
+  }
+}
+
+
